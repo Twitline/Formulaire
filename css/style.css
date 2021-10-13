@@ -1,0 +1,58 @@
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    color: blue;
+}
+
+body {
+    background-color: grey;
+    width: 100%;
+}
+
+.column {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+aside{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(233, 187, 35, 0.863);
+    padding-bottom: 500px;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 177.5px;
+    padding-right: 600px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.champ {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+button {
+    color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color:rgb(65, 60, 60);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}

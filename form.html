@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <header>
+            <h4>TP Formulaire</h4>
+            <nav>
+                <a>Acceuil</a>
+            </nav>
+        </header>
+        <div class="column">
+            <aside>
+                <h3>Nous contacter</h3>
+                <p>Nous serions ravi de vous entendre</p>
+            </aside>
+            <main>
+                <form method="POST">
+                    <div class="champ">
+                        <label for="prenom">Prenom*</label><br>
+                        <input type="text" id="prenom">
+                    </div>
+                    <div class="champ">
+                        <label for="name">Nom de famille*</label><br>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="champ">
+                        <label for="mail">Email*</label><br>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div class="champ">
+                        <label>Commentaire*</label><br>
+                        <textarea rows="6"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Soumetre</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+        
+    </body>
+</html>
