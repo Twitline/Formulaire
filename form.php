@@ -13,19 +13,19 @@
             </nav>
         </header>
         <div class="column">
-            <aside>
+            <div class="aside">
                 <h3>Nous contacter</h3>
                 <p>Nous serions ravi de vous entendre</p>
-            </aside>
-            <main>
-                <form method="POST">
+            </div>
+            <div class="main">
+                <form method="POST" action="submit.php">
                     <div class="champ">
                         <label for="prenom">Prenom*</label><br>
-                        <input type="text" id="prenom">
+                        <input type="text" name="prenom">
                     </div>
                     <div class="champ">
                         <label for="name">Nom de famille*</label><br>
-                        <input type="text" id="name">
+                        <input type="text" name="name">
                     </div>
                     <div class="champ">
                         <label for="mail">Email*</label><br>
@@ -33,14 +33,13 @@
                     </div>
                     <div class="champ">
                         <label>Commentaire*</label><br>
-                        <textarea rows="6"></textarea>
+                        <textarea rows="6" name="text" value=""></textarea>
                     </div>
                     <div>
                         <button type="submit">Soumetre</button>
                     </div>
-                </form>
-            </main>
+                </form>  
+            </div>
         </div>
-        
     </body>
 </html>

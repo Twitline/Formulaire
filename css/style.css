@@ -20,16 +20,16 @@ body {
     align-items: flex-start;
 }
 
-aside{
+.aside{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: rgba(233, 187, 35, 0.863);
+    background-color: rgba(247, 235, 128, 0.959);
     padding-bottom: 500px;
 }
 
-main {
+.main {
     background-color: white;
-    padding-bottom: 177.5px;
+    padding-bottom: 199px;
     padding-right: 600px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
