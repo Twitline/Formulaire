@@ -24,13 +24,10 @@ body {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: rgba(247, 235, 128, 0.959);
-    padding-bottom: 500px;
 }
 
 .main {
     background-color: white;
-    padding-bottom: 199px;
-    padding-right: 600px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
